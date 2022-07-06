@@ -1,0 +1,3 @@
+mutation Resgister($password: String!, $email: String!) {
+  resgister(password: $password, email: $email)
+}
